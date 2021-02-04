@@ -5,9 +5,9 @@ int main()
    int tf;  /*temperature in fahrenheit */
    float tc; /*tempertue in celsius */
    printf("\nEnter vatueof temperature in farhenheit");
-   scanf("%f",&tf);
+   scanf("%d",&tf);
    /*formula of conversion*/
-   tc=5/9*tf-32; 
+   tc=((tf-32)*5)/9; 
    printf("temperature in Celsius=%f\n",tc);
    return 0;
 }
